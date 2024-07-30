@@ -1,0 +1,6 @@
+[1] "Response ~ (log10FaSqr + log10Fa + log10PeakFlux)^2 + log10NH + PhotonIndex + log10Ta + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + AlphaSqr"
+[2] "Response ~ (log10FaSqr + log10TaSqr + log10Fa + log10PeakFlux)^2 + log10NH + PhotonIndex + log10Ta + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + GammaSqr + AlphaSqr"
+[3] "Response ~ (log10FaSqr + log10Fa + log10Ta + log10PeakFlux)^2 + log10NH + PhotonIndex + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + AlphaSqr"
+[4] "Response ~ (log10FaSqr + log10Fa + log10Ta + PhotonIndex + log10PeakFlux)^2 + log10NH + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + AlphaSqr"
+[5] "Response ~ (log10FaSqr + log10TaSqr + log10Fa + PhotonIndex + log10PeakFlux)^2 + log10NH + log10Ta + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + GammaSqr + AlphaSqr"
+[6] "Response ~ (log10FaSqr + log10TaSqr + log10Fa + log10PeakFlux + log10NH)^2 + PhotonIndex + log10Ta + Gamma + Alpha + log10NHSqr + log10PeakFluxSqr + PhotonIndexSqr + GammaSqr + AlphaSqr"
