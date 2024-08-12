@@ -1,1 +1,0 @@
-libs = c('gam_1', 'gam_2', 'gam_3', 'SL.custom_glm_1', 'SL.custom_glm_2', 'SL.custom_glm_3', 'SL.caret.rpart', 'SL.earth', 'SL.ipredbagg', 'SL.loess', 'SL.mean', 'SL.nnet',  'SL.randomForest', 'SL.ranger', 'SL.rpart',  'SL.step', 'SL.step.forward', 'SL.step.interaction', 'SL.stepAIC', 'SL.xgboost' )

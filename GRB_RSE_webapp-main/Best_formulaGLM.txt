@@ -1,3 +1,0 @@
-[1] "Response ~ (log10FaSqr + log10Fa + log10PeakFlux)^2 + log10NH + PhotonIndex + log10Ta + Gamma + log10T90 + log10PeakFluxSqr + log10NHSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + log10T90Sqr"
-[1] "Response ~ (log10FaSqr + log10Fa + log10PeakFlux)^2 + log10NH + PhotonIndex + log10Ta + Gamma + log10T90 + log10PeakFluxSqr + log10NHSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + log10T90Sqr"
-[1] "Response ~ (log10FaSqr + log10Fa + log10Ta + PhotonIndex + log10PeakFlux)^2 + log10NH + Gamma + log10T90 + log10PeakFluxSqr + log10NHSqr + PhotonIndexSqr + log10TaSqr + GammaSqr + log10T90Sqr"
