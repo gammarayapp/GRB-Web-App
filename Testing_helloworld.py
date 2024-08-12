@@ -23,3 +23,20 @@ with st.expander('See code'):
 process1 = subprocess.Popen(["Rscript", "helloworld.R"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 result1 = process1.communicate()
 st.write(result1)
+
+
+st.subheader('2. Creating a plot using `ggplot2`')
+with st.expander('See code'):
+  code2 = '''library(ggplot2)
+
+  ggplot(mtcars, aes(mpg, wt)) +
+    geom_point()
+
+  ggsave('plot.png')
+  '''
+  st.code(code2, language='R')
+process2 = subprocess.Popen(["Rscript", "plot.R"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+result2 = process2.communicate()
+image = Image.open('plot.png')
+st.image(image)
+st.caption('**Figure 1.** A simple scatter plot of *wt* as a function of *mpg* from the mtcars dataset.')
