@@ -1,6 +1,6 @@
 library(ggplot2)
 
 ggplot(mtcars, aes(mpg, wt)) +
-  geom_point(aes(colour = factor(cyl)))
+  geom_point(aes(colour = 'red'))
 
 ggsave('plot.png')
