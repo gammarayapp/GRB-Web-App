@@ -1,3 +1,4 @@
-mkdir temp_library
-pwd
-Rscript -e "install.packages('SuperLearner', repos='http://cran.rstudio.com/', lib='temp_library')"
+mkdir /mount/src/grb-web-app/temp_library
+
+Rscript -e "install.packages('SuperLearner', repos='http://cran.rstudio.com/', lib='/mount/src/grb-web-app/temp_library
+')"
