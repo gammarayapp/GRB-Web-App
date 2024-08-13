@@ -2,7 +2,7 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-
+subprocess.run(['bash', 'R_library_setup_2.sh'])
 
 #subprocess.run([],check=True)
 
