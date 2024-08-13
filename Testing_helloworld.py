@@ -2,7 +2,6 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-subprocess.run(["Rscript","install.packages('SuperLearner')"],check=True)
 
 st.header('🎈 R x Python Streamlit App')
 
