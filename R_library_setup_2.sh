@@ -1,4 +1,4 @@
-mkdir -p ~/R/site-library
+mkdir -p ~/site-library
 
 Rscript -e "install.packages('VIM', repos='http://cran.rstudio.com/', lib='~/R/site-library')"
 Rscript -e "install.packages('Rcpp', repos='http://cran.rstudio.com/', lib='~/R/site-library')"
@@ -22,7 +22,7 @@ Rscript -e "install.packages('glmnet', repos='http://cran.rstudio.com/', lib='~/
 
 Rscript -e "install.packages('gam', repos='http://cran.rstudio.com/', lib='~/R/site-library')"      
 Rscript -e "install.packages('mgcv', repos='http://cran.rstudio.com/', lib='~/R/site-library')"
-Rscript -e "install.packages('SuperLearner', repos='http://cran.rstudio.com/', lib='~/R/site-library')"
+Rscript -e "install.packages('SuperLearner', repos='http://cran.rstudio.com/', lib='~/site-library')"
 Rscript -e "install.packages('xgboost', repos='http://cran.rstudio.com/')"
 Rscript -e "install.packages('foreach', repos='http://cran.rstudio.com/')"
 Rscript -e "install.packages('doParallel', repos='http://cran.rstudio.com/')"
