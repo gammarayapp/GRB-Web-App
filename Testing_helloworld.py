@@ -2,10 +2,12 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-#import os
+#subprocess.run([],check=True)
+
+import os
 
 # Install r2u from source
-#os.system('git clone https://github.com/eddelbuettel/r2u.git')
+os.system('R -e print("testing r execution")')
 #os.system('cd r2u && python setup.py install')
 
 # Now you can import and use r2u
